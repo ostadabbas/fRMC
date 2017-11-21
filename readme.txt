@@ -40,7 +40,7 @@ Code:
    Demo_fRMC      	- Demo demonstrating fRMC on a sample video from BMC2012 dataset 
 
 Other:
-    readme.rtf  	- This file.
+    readme.txt  	- This file.
 
 ###################################################################
 
