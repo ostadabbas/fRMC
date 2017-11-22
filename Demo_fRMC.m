@@ -39,7 +39,7 @@
     imMatG = double(imMatG);
     frNum = size(imMatG,2);
     tic
-	[A, ~ ] = InfaceExtFrankWolfe(imMatG, gamma1, gamma2, max_niter);
+	[A, ~ ] = InfaceExtFrankWolfe(imMatG, [], gamma2, max_niter);
     tElapsed(counter) = toc;
     E = abs(A - imMatG);
     savePath = fullfile(savePathSt);
