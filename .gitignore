@@ -1,3 +1,4 @@
 *.png
-*/Data/result_frmc
+Data/result_frmc
+! Data/result_frmc/dummy.txt
 
